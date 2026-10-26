@@ -8,7 +8,7 @@ Alumno: Lucas Germán Caputo (trabajo individual) · Docente titular: Prof. Gabr
 **LGC Advisors**, consultora argentina de seguros (Productor Asesor de Seguros), inversiones y marketing digital para pymes.
 **Proyecto:** módulo de software de **gestión de clientes y cartera** (CRM) que reemplaza la planilla de cálculo por una base de datos relacional, con alertas de vencimiento, registro de consultas de WhatsApp, control de comisiones y tablero de indicadores.
 
-Tablero del proyecto: GitHub Projects (enlace en la pestaña Projects)
+[Tablero del proyecto (GitHub Projects)](https://github.com/users/Aiden94/projects/1)
 
 ## Contenido del repositorio
 
