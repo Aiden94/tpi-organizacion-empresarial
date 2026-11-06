@@ -35,6 +35,26 @@ Alumno: Lucas Germán Caputo (trabajo individual) · Docente titular: Prof. Gabr
 - Las tareas se gestionan como **issues** en el tablero; los hitos del Gantt son **milestones** (H1 a H4).
 - Detalle en [`gestion/flujo-de-trabajo.md`](gestion/flujo-de-trabajo.md).
 
-## Uso de inteligencia artificial
+## Declaración de Uso de IA
 
-Se usó el asistente Claude (Anthropic) con fines declarados en [`control/uso-de-ia.md`](control/uso-de-ia.md). Los commits generados con su asistencia llevan la línea `Co-Authored-By: Claude`.
+Usé el asistente **Claude (Anthropic)** en todas las entregas. El detalle por artefacto está en [`control/uso-de-ia.md`](control/uso-de-ia.md). Los commits hechos con su asistencia llevan la línea `Co-Authored-By: Claude`.
+
+### Prompts utilizados y para qué
+
+| Entrega | Qué le pedí a la IA (prompt resumido) | Por qué |
+|---|---|---|
+| 1 | "Ordená la estructura del documento y redactá un primer borrador a partir de cómo funciona mi consultora; proponé un diagrama de sistema abierto." | Llegar rápido a una estructura prolija y dedicar el tiempo a los datos reales. |
+| 2 | "Con estas tareas y duraciones, calculá fechas, precedencias y camino crítico; graficá el FODA y el Gantt." | Evitar errores de cálculo en un cronograma de 23 tareas. |
+| 3 | "Proponé un listado inicial de campos y tipos para estas entidades; dibujá el organigrama con estas áreas." | Partir de una base y ajustarla a la operación real. |
+| 4 | "Modelá en BPMN 2.0 el proceso de renovación que te describo; armá el repositorio con ramas y PRs; proponé historias de usuario e indicadores a partir de las metas." | Aplicar la notación y las herramientas correctamente. |
+
+### Correcciones humanas sobre los resultados
+
+- **Datos y valores:** los datos de la consultora, las duraciones del Gantt (según mis 20 h semanales), los valores de las metas y los valores de las listas (ramos, canales, motivos de baja) los definí yo, no la IA.
+- **Áreas y responsables:** las áreas del organigrama, la asesoría externa como staff y el responsable de cada dato salen de cómo trabajo hoy.
+- **BPMN:** definí qué tareas quedan en manos del productor (las que requieren matrícula o criterio profesional) y cuáles pasan al sistema.
+- **Revisión:** revisé cada Pull Request antes de integrarlo y verifiqué los conceptos contra la bibliografía de la materia.
+
+### Criterio
+
+La IA aceleró la redacción, los cálculos y los gráficos (estrategia DO del FODA). Las decisiones de diseño son mías y puedo justificarlas: qué proceso modelar, dónde decide una persona y dónde el sistema, la separación entre metas de proyecto y de desempeño, y el uso de `Decimal` para importes y de texto para los documentos. Asumo la responsabilidad por la veracidad y coherencia de todo lo presentado.
