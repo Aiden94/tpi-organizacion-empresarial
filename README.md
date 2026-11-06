@@ -8,7 +8,7 @@ Alumno: Lucas Germán Caputo (trabajo individual) · Docente titular: Prof. Gabr
 **LGC Advisors**, consultora argentina de seguros (Productor Asesor de Seguros), inversiones y marketing digital para pymes.
 **Proyecto:** módulo de software de **gestión de clientes y cartera** (CRM) que reemplaza la planilla de cálculo por una base de datos relacional, con alertas de vencimiento, registro de consultas de WhatsApp, control de comisiones y tablero de indicadores.
 
-[Tablero del proyecto (GitHub Projects)](https://github.com/users/Aiden94/projects/1)
+**Documento integrador final:** [`entregas/TPI_Final_Caputo.pdf`](entregas/TPI_Final_Caputo.pdf) · [Tablero del proyecto (GitHub Projects)](https://github.com/users/Aiden94/projects/1)
 
 ## Contenido del repositorio
 
@@ -33,6 +33,7 @@ Alumno: Lucas Germán Caputo (trabajo individual) · Docente titular: Prof. Gabr
 - `main` contiene solo trabajo revisado. Cada artefacto se desarrolla en una rama propia (`docs/...`, `feature/...`) y se integra mediante **Pull Request**.
 - Los commits siguen la convención `tipo(alcance): descripción` en español (`docs`, `feat`, `fix`).
 - Las tareas se gestionan como **issues** en el tablero; los hitos del Gantt son **milestones** (H1 a H4).
+- Al ser un trabajo individual, la revisión de pares se hace como **autorrevisión documentada**: en cada Pull Request dejo un comentario de revisión con lo correcto y lo que hay que ajustar, aplico la corrección con un commit en la misma rama y recién después integro a `main`.
 - Detalle en [`gestion/flujo-de-trabajo.md`](gestion/flujo-de-trabajo.md).
 
 ## Declaración de Uso de IA
